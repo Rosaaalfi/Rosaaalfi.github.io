@@ -1,7 +1,65 @@
 <!DOCTYPE html>
-<html>
-<body>
-  <h1>Hello, GitHub Pages!</h1>
-  <p>My site is officially live.</p>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya | Kreatif & Minimalis</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <nav class="p-6 flex justify-between items-center max-w-5xl mx-auto">
+        <h1 class="text-xl font-bold tracking-tighter">SAYA.DEV</h1>
+        <div class="space-x-6 text-sm font-medium">
+            <a href="#projek" class="hover:text-blue-600 transition">Projek</a>
+            <a href="#kontak" class="bg-black text-white px-4 py-2 rounded-full hover:bg-slate-800">Kontak</a>
+        </div>
+    </nav>
+
+    <header class="max-w-5xl mx-auto px-6 py-20">
+        <h2 class="text-5xl md:text-7xl font-bold mb-6">Halo, saya <span class="text-blue-600">Nama Kamu.</span></h2>
+        <p class="text-xl text-slate-600 max-w-2xl leading-relaxed">
+            Seorang Web Developer yang fokus membangun pengalaman digital yang cepat, fungsional, dan estetis. Selamat datang di portal karya saya.
+        </p>
+    </header>
+
+    <section id="projek" class="max-w-5xl mx-auto px-6 py-12">
+        <h3 class="text-2xl font-bold mb-8 italic">Selected Work —</h3>
+        <div class="grid md:grid-cols-2 gap-8">
+            
+            <div class="group cursor-pointer">
+                <div class="bg-slate-200 h-64 rounded-2xl mb-4 overflow-hidden">
+                    <div class="w-full h-full bg-gradient-to-br from-blue-400 to-purple-500 group-hover:scale-105 transition duration-500"></div>
+                </div>
+                <h4 class="text-xl font-semibold">E-Commerce App</h4>
+                <p class="text-slate-500">Web Design / Development</p>
+            </div>
+
+            <div class="group cursor-pointer">
+                <div class="bg-slate-200 h-64 rounded-2xl mb-4 overflow-hidden">
+                    <div class="w-full h-full bg-gradient-to-br from-emerald-400 to-cyan-500 group-hover:scale-105 transition duration-500"></div>
+                </div>
+                <h4 class="text-xl font-semibold">Brand Identity</h4>
+                <p class="text-slate-500">Graphic Design</p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer id="kontak" class="bg-white border-t mt-20">
+        <div class="max-w-5xl mx-auto px-6 py-12 text-center">
+            <h3 class="text-2xl font-bold mb-4">Mari berkolaborasi.</h3>
+            <p class="text-slate-600 mb-8">Tersedia untuk projek freelance atau diskusi teknologi.</p>
+            <a href="mailto:emailanda@gmail.com" class="text-blue-600 font-semibold underline text-lg">emailanda@gmail.com</a>
+            <div class="mt-12 text-slate-400 text-sm">
+                &copy; 2026 Nama Kamu. Dibuat dengan GitHub Pages.
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
